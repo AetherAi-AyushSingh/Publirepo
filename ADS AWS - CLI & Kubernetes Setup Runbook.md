@@ -85,7 +85,7 @@ AWS@Apple Homebrew configuration
 GIT => <https://github.com/ahmetb/kubectx>
 brew install kubectx
 ```
-####Install fzf - fuzzy search tool
+#### Install fzf - fuzzy search tool
 ```
 brew install fzf
 ```
@@ -94,11 +94,11 @@ brew install fzf
 ```
 <https://cloud.google.com/sdk/docs/install>
 ```
-###(KCS Only) Apple Cloud CLI (ACC)
+#### (KCS Only) Apple Cloud CLI (ACC)
 ```
 brew update && brew install apple/isd-dev/acc
 ```
-####(Kube Only) Install kcli
+#### (Kube Only) Install kcli
 ```
 brew tap hybrid-cloud/tools git@github.pie.apple.com:hybrid-cloud/homebrew-tap.git
 brew install apple/aci/kcli
