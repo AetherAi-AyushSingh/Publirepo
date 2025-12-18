@@ -15,12 +15,12 @@ Run the following commands to install dependencies:
 [Apple Internal Homebrew Setup Guide](https://github.pie.apple.com/homebrew/brew)
 ```
 #### 2. Install AWS CLI and plugins
-```sh
-- brew install awscli.
+```
+brew install awscli.
 ```
 ### **AWS & Apple Connect Setup**
 
-# Configure awsappleconnect
+###Configure awsappleconnect
 git clone git@github.pie.apple.com:CloudTech/aws-apple.git
 cd aws-apple/setup
 bash setup.sh
