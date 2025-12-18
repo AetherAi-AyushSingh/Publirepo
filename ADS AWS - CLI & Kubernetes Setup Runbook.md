@@ -40,31 +40,31 @@ Profile Name: acs-dp-cr-auth-test-6004
 ```
 Example for above:
 Keerthis-M1:setup keerthi$ bash setup.sh
-```
+
 
 ### ***AWS@Apple Setup***
 
 1.In order to configure your AWS CLI access, we'll need to gather some information 
 from you. If you have any questions, go to: 
-```
+
 https://github.pie.apple.com/CloudTech/aws-apple/tree/main/setup
-```
+
 
 2. Enter your AppleConnect username [default 'k_poludasu']:  
 
 3. In particular, to find your role and account IDs, go to: 
-```
+
 https://portal.aws.ais.apple.com/console-access
-```
+
 4. Enter the MASCOT role name (ex. developer_role): custom_role
 
 5. Now you'll need to enter the AWS Account IDs for your accounts. Typically customers have Dev, Test, and Prod accounts. If you don't, just press enter.
-```
+
 Enter your Dev AWS Account ID (ex. 123456789012): 
 Enter your Test AWS Account ID (ex. 234567890123): 964795336004
 Enter your Prod AWS Account ID (ex. 345678901234): 
 Enter your Sandbox AWS Account ID (ex. 456789012345): acs-dp-cr-auth-test-6004
-```
+
 
 Would you like to append the AWS environment (i.e. [dev]) to your BASH 
 prompt? We think most people should set this to true, however if you 
@@ -75,9 +75,8 @@ If you would like to name your profiles, you can set an optional prefix. If not,
 press enter, and we'll label your accounts 'dev', 'test', 'prod', and 'sandbox'.
 (Optional) Enter your preferred profile name prefix (ex. mascot-):     
 
-== AWS@Apple Homebrew configuration ==
-
-
+### AWS@Apple Homebrew configuration 
+```
 # Install Kubectl
 `brew install kubectl`
 
