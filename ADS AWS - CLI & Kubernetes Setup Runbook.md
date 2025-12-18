@@ -18,12 +18,14 @@ Run the following commands to install dependencies:
 ```
 brew install awscli.
 ```
-### **AWS & Apple Connect Setup**
+#### **AWS & Apple Connect Setup**
 
-###Configure awsappleconnect
+####Configure awsappleconnect
+```
 git clone git@github.pie.apple.com:CloudTech/aws-apple.git
 cd aws-apple/setup
 bash setup.sh
+```
 
 ####Input below details for testing:
 ```
