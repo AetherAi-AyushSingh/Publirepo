@@ -44,7 +44,7 @@ Keerthis-M1:setup keerthi$ bash setup.sh
 
 AWS@Apple Setup
 
-1.In order to configure your AWS CLI access, we'll need to gather some information 
+1. In order to configure your AWS CLI access, we'll need to gather some information 
 from you. If you have any questions, go to: 
 
 https://github.pie.apple.com/CloudTech/aws-apple/tree/main/setup
