@@ -20,14 +20,14 @@ brew install awscli.
 ```
 #### **AWS & Apple Connect Setup**
 
-####Configure awsappleconnect
+1. Configure awsappleconnect
 ```
 git clone git@github.pie.apple.com:CloudTech/aws-apple.git
 cd aws-apple/setup
 bash setup.sh
 ```
 
-####Input below details for testing:
+2. Input below details for testing:
 ```
 Apple Connect username: [your_username]
 Mascot role name: custom_role
@@ -36,7 +36,7 @@ Test AWS Account ID: 964795336004
 Prod AWS Account ID : Skip / Press Enter
 Profile Name: acs-dp-cr-auth-test-6004
 ```
-####Verify there is n error in your installation
+3. Verify there is n error in your installation
 ```
 Example for above:
 Keerthis-M1:setup keerthi$ bash setup.sh
