@@ -42,7 +42,7 @@ Example for above:
 Keerthis-M1:setup keerthi$ bash setup.sh
 ```
 
-== AWS@Apple Setup ==
+### ***AWS@Apple Setup***
 
 1.In order to configure your AWS CLI access, we'll need to gather some information 
 from you. If you have any questions, go to: 
